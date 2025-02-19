@@ -10,7 +10,6 @@
     --btn-color: #7353BA;
     --paragraph-color: #FF331F;
     --description-color: #444;
-    --container-bg: #F2F2F2;
 }
 
 body {
@@ -23,16 +22,16 @@ body {
 }
 
 .container {
-    background-color: var(--container-bg);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     min-height: 50vh;
     width: 60vh;
     padding: 2rem;
     text-align: center;
-    border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
 }
 
 .heading {
